@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-top: 200px;
+	width: auto;
+	height: 835px;
+	overflow: hidden;
+	background-color: #353A3F;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px;
+	color: white;
+}
+
+.block01{
+	width: 1210px;
+	height: 410px;
+	margin-top: 200px;
+}
+
+h1{
+	font-family: 'Poppins';
+	/*letter-spacing: 15px;*/
+}
+
+p{
+	font-family: "Myriad Pro";
+	color: #919395;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 201px;
+	height: 62px;
+	border-radius: 100px;
+	background-color: #4CB480;
+}
+
+
+
+footer{
+	width: auto;
+	height: 218px;
+	background-color: #353A3F;
+}
