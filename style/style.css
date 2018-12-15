@@ -6,32 +6,33 @@ body{
 header{
 	display: flex;
 	justify-content: center;
-	align-content: center;
-	padding-top: 200px;
+	align-items: center;
 	width: auto;
 	height: 835px;
-	overflow: hidden;
+	overflow: ;
 	background-color: #353A3F;
 	font-family: 'Poppins', sans-serif;
-	padding: 10px;
 	color: white;
 }
 
-.block01{
-	width: 1210px;
-	height: 410px;
-	margin-top: 200px;
-}
+
 
 h1{
 	font-family: 'Poppins';
+	font-size: 62px;
 	/*letter-spacing: 15px;*/
+}
+
+h2{
+	font-size: 30px;
 }
 
 p{
 	font-family: "Myriad Pro";
+	font-size: 22px;
 	color: #919395;
 }
+
 
 .button{
 	display: flex;
@@ -41,12 +42,288 @@ p{
 	height: 62px;
 	border-radius: 100px;
 	background-color: #4CB480;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*ОСНОВНОЙ 1-ЫЙ БЛОК*/
+
+.block1{
+	display: flex;
+	justify-content: space-around;
+	padding: 120px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.block1 img{
+
+}
+
+.block1 h1{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.block1 p{
+	font-size: 18px;
+	color: #959799;
+}
+
+
+/*ПЕРВЫЙЙ БЛОК*/
+
+.block11{
+	width: 363px;
+	height: 450px;
+	margin-right: 62px;
+	background-color: #F6F6F6;
+}
+
+.block12{
+	width: 363px;
+	height: 450px;
+	margin-right: 62px;
+	background-color: #F6F6F6;
+}
+
+.block13{
+	width: 363px;
+	height: 450px;
+	background-color: #F6F6F6;
+}
+
+.block1 .button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 56px;
+	border-radius: 100px;
+	background-color: #4CB480;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*основной 2-О1 БЛОК*/
+
+.block2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 599px;
+	background-color: #353A3F;
+	overflow: hidden;
+}
+
+.quote{
+	width: 829px;
+	height: 328px;
+	background-image: url(/img/kov.png);
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+.block2 p{
+	font-size: 12em;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	color: #4CB480;
+	line-height: 0px;
 }
 
 
 
+.block2 blockquote{
+	font-family: 'Myriad Pro';
+	font-size: 28px;
+	color: #ffffff;
+	line-height: 38px;
+	margin-bottom: 130px;
+}
+
+.block2 cite{
+	font-family: 'Myriad Pro';
+	color: #6A7076;
+	font-size: 20px;
+}
+
+
+/*оСНОВНОЙ 3-ИЙ БЛОК*/
+
+.block3{
+	width: auto;
+	height: 1500px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 50PX;
+	overflow: hidden;
+}
+
+
+.block03{
+	width: 1210px;
+	height: 1117px;
+}
+
+.block3 .button{
+	font-size: 18px;
+	font-weight: 500px;
+}
+
+/*ПЕРВЫЙЙ БЛОК*/
+
+.block31{
+	font-family: 'Poppins';
+	margin-top: 150px;
+}
+
+
+.block31 h1{
+	color: #353A3F;
+	font-weight: bold;
+	font-size: 44px;
+	font-family: 'Poppins';
+	margin-bottom: 80px;
+}
+
+.block31 h2{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.block31 p{
+	font-size: 18px;
+	font-weight: 100px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.title1{
+	width: 552px;
+	height: 261px;
+	float: right;
+	margin-left: 80px;
+	margin-top: 40px;
+	line-height: 31px;
+}
+
+.block31 img{
+	width: 565px;
+	height: 331px;
+}
+
+/*ВТОРОЙ БЛОК*/
+
+.block32{
+	font-family: 'Poppins';
+	margin-top: 60px;
+}
+
+.block32 img{
+	width: 565px;
+	height: 331px;
+}
+
+.block32 h2{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.block32 p{
+	font-size: 18px;
+	font-weight: 100px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.title1{
+	width: 552px;
+	height: 261px;
+	float: right;
+	margin-left: 80px;
+	margin-top: 40px;
+	line-height: 31px;
+}
+
+
+/*ТРЕТИЙ БЛОК*/
+
+.block33{
+	margin-bottom: 120px;
+}
+
+.block33{
+	font-family: 'Poppins';
+	margin-top: 60px;
+}
+
+.block33 img{
+	width: 565px;
+	height: 331px;
+}
+
+.block33 h2{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.block33 p{
+	font-size: 18px;
+	font-weight: 100px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.title1{
+	width: 552px;
+	height: 261px;
+	float: right;
+	margin-left: 80px;
+	margin-top: 40px;
+	line-height: 31px;
+}
+
+
 footer{
 	width: auto;
-	height: 218px;
+	height: 220px;
 	background-color: #353A3F;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+footer a{
+	color: #9A9D9F;
+	font-size: 18px;
+	font-family: 'Poppins';
+	font-weight: 600;
+	line-height: 50px;
+	padding-left: 20px;
+}
+
+footer p{
+	color: #595D61;
+	font-size: 16px;
+}
+
+.w{
+	padding-left: 0px;
+}
+
+.contact{
+	padding-top: 80px;
+	width: 1040px;
+	height: 62px;
+}
+
+.network{
+	padding-top: 100px;
+}
+
+.network img{
+	padding-left: 30px;
 }
