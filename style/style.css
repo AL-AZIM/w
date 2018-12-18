@@ -5,7 +5,7 @@ body{
 
 header{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	width: auto;
 	height: 835px;
@@ -46,11 +46,11 @@ p{
 	color: #ffffff;
 }
 
-header a:visited{
+ a:visited{
 	color: #ffffff;
 }
 
-header a:hover{
+ a:hover{
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -167,12 +167,13 @@ header a:hover{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-left: 50PX;
 	overflow: hidden;
 }
 
 
 .block03{
+	display: flex;
+	flex-direction: column;
 	width: 1210px;
 	height: 1117px;
 }
@@ -332,7 +333,7 @@ footer p{
 }
 
 .contact{
-	padding-top: 80px;
+	margin-top: 80px;
 	width: 1040px;
 	height: 62px;
 }
@@ -348,3 +349,5 @@ footer p{
 .network a{
 	padding: 0px;
 }
+
+
